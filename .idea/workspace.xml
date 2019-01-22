@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fcfd7bb-358d-459b-9873-07887ec17e80" name="Default" comment="" />
+    <list default="true" id="3fcfd7bb-358d-459b-9873-07887ec17e80" name="Default" comment="passenger on trip ui added">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/on_trip.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/bill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/cash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/driver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/winds/on_trip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passenger_launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/passenger_launcher.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,25 +23,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/project$passenger_launcher.coverage" NAME="passenger_launcher Coverage Results" MODIFIED="1548148174452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$passenger_launcher.coverage" NAME="passenger_launcher Coverage Results" MODIFIED="1548170469868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$ui.coverage" NAME="ui Coverage Results" MODIFIED="1547830347538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="passenger_launcher.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="278">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -36,32 +40,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passenger_main_ui.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="passenger_main_ui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winds/passenger_main_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="454" lean-forward="true" selection-start-line="454" selection-end-line="454" />
+            <state relative-caret-position="146">
+              <caret line="124" column="40" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="40" />
               <folding>
                 <element signature="e#199#241#0" expanded="true" />
-                <element signature="e#1073#1221#0" />
-                <element signature="e#2888#2955#0" />
-                <element signature="e#3280#3347#0" />
-                <element signature="e#3671#3738#0" />
-                <element signature="e#4063#4130#0" />
-                <element signature="e#16345#16695#0" />
-                <element signature="e#16637#16882#0" />
-                <element signature="e#17034#17347#0" />
-                <element signature="e#18158#18182#0" />
-                <element signature="e#18238#18290#0" />
-                <element signature="e#18329#18381#0" />
-                <element signature="e#18418#18470#0" />
-                <element signature="e#19798#19975#0" />
-                <element signature="e#21216#21482#0" />
                 <marker date="1548148335632" expanded="false" signature="364:1485" ph="..." />
                 <marker date="1548148335632" expanded="false" signature="1520:2715" ph="..." />
                 <marker date="1548148335632" expanded="false" signature="2754:4548" ph="..." />
                 <marker date="1548148335632" expanded="false" signature="4572:5237" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="5273:7431" ph="..." />
+                <marker date="1548148335632" expanded="true" signature="5273:7431" ph="..." />
                 <marker date="1548148335632" expanded="false" signature="7467:9375" ph="..." />
                 <marker date="1548148335632" expanded="false" signature="9405:10092" ph="..." />
                 <marker date="1548148335632" expanded="false" signature="10124:10827" ph="..." />
@@ -83,11 +73,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/graphics/UIs/test.py">
+      <file leaf-file-name="on_trip.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/winds/on_trip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="126">
+              <caret line="378" column="41" lean-forward="true" selection-start-line="378" selection-start-column="41" selection-end-line="378" selection-end-column="41" />
+              <folding>
+                <element signature="e#195#205#0" expanded="true" />
+                <element signature="e#17055#17214#0" />
+                <element signature="e#17283#17470#0" />
+                <marker date="1548170469814" expanded="false" signature="429:1578" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="1609:2425" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="2456:2912" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="2939:3342" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="3372:4047" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="4073:4711" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="4743:5217" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="5244:5813" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="5841:6420" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="6448:7105" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="7135:7783" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="7816:8497" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="8524:9159" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="9183:9785" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="9821:10601" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="10637:11160" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="11187:11485" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="11519:12177" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="12213:12719" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="12753:14031" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="14059:14742" ph="..." />
+                <marker date="1548170469814" expanded="false" signature="14768:15542" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +124,19 @@
       <find>connect</find>
       <find>sc_value</find>
       <find>CU</find>
+      <find>mainWidow</find>
+      <find>drv_name_2</find>
+      <find>curs</find>
+      <find>cancel_reason_1_clicked</find>
+      <find>try</find>
+      <find>balance</find>
     </findStrings>
+    <replaceStrings>
+      <replace>why_cancel</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,9 +144,11 @@
         <option value="$PROJECT_DIR$/launcher.py" />
         <option value="$PROJECT_DIR$/ui.py" />
         <option value="$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/graphics/UIs/test.py" />
-        <option value="$PROJECT_DIR$/passenger_launcher.py" />
         <option value="$PROJECT_DIR$/winds/welcome_ui.py" />
         <option value="$PROJECT_DIR$/winds/passenger_main_ui.py" />
+        <option value="$PROJECT_DIR$/btn_actions/on_trip.py" />
+        <option value="$PROJECT_DIR$/passenger_launcher.py" />
+        <option value="$PROJECT_DIR$/winds/on_trip.py" />
       </list>
     </option>
   </component>
@@ -131,11 +162,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1146" />
-    <option name="y" value="102" />
-    <option name="width" value="1648" />
-    <option name="height" value="1684" />
+    <option name="x" value="654" />
+    <option name="y" value="538" />
+    <option name="width" value="1858" />
+    <option name="height" value="1098" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,7 +198,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -250,16 +282,17 @@
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934132" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3293556" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38922155" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48622754" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14295533" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -270,7 +303,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +310,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="passenger on trip ui added" />
+    <option name="LAST_COMMIT_MESSAGE" value="passenger on trip ui added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,34 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/graphics/UIs/ui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-682">
           <caret line="793" column="11" selection-start-line="793" selection-start-column="9" selection-end-line="793" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/graphics/UIs/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,31 +404,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/graphics/UIs/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btn_actions/on_trip.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/winds/passenger_main_ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="454" lean-forward="true" selection-start-line="454" selection-end-line="454" />
+        <state relative-caret-position="146">
+          <caret line="124" column="40" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="40" />
           <folding>
             <element signature="e#199#241#0" expanded="true" />
-            <element signature="e#1073#1221#0" />
-            <element signature="e#2888#2955#0" />
-            <element signature="e#3280#3347#0" />
-            <element signature="e#3671#3738#0" />
-            <element signature="e#4063#4130#0" />
-            <element signature="e#16345#16695#0" />
-            <element signature="e#16637#16882#0" />
-            <element signature="e#17034#17347#0" />
-            <element signature="e#18158#18182#0" />
-            <element signature="e#18238#18290#0" />
-            <element signature="e#18329#18381#0" />
-            <element signature="e#18418#18470#0" />
-            <element signature="e#19798#19975#0" />
-            <element signature="e#21216#21482#0" />
             <marker date="1548148335632" expanded="false" signature="364:1485" ph="..." />
             <marker date="1548148335632" expanded="false" signature="1520:2715" ph="..." />
             <marker date="1548148335632" expanded="false" signature="2754:4548" ph="..." />
             <marker date="1548148335632" expanded="false" signature="4572:5237" ph="..." />
-            <marker date="1548148335632" expanded="false" signature="5273:7431" ph="..." />
+            <marker date="1548148335632" expanded="true" signature="5273:7431" ph="..." />
             <marker date="1548148335632" expanded="false" signature="7467:9375" ph="..." />
             <marker date="1548148335632" expanded="false" signature="9405:10092" ph="..." />
             <marker date="1548148335632" expanded="false" signature="10124:10827" ph="..." />
@@ -433,6 +458,40 @@
             <marker date="1548148335632" expanded="false" signature="15651:16372" ph="..." />
             <marker date="1548148335632" expanded="false" signature="16418:17727" ph="..." />
             <marker date="1548148335632" expanded="false" signature="17819:18549" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winds/on_trip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="378" column="41" lean-forward="true" selection-start-line="378" selection-start-column="41" selection-end-line="378" selection-end-column="41" />
+          <folding>
+            <element signature="e#195#205#0" expanded="true" />
+            <element signature="e#17055#17214#0" />
+            <element signature="e#17283#17470#0" />
+            <marker date="1548170469814" expanded="false" signature="429:1578" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="1609:2425" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="2456:2912" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="2939:3342" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="3372:4047" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="4073:4711" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="4743:5217" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="5244:5813" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="5841:6420" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="6448:7105" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="7135:7783" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="7816:8497" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="8524:9159" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="9183:9785" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="9821:10601" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="10637:11160" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="11187:11485" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="11519:12177" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="12213:12719" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="12753:14031" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="14059:14742" ph="..." />
+            <marker date="1548170469814" expanded="false" signature="14768:15542" ph="..." />
           </folding>
         </state>
       </provider>
