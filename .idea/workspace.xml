@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fcfd7bb-358d-459b-9873-07887ec17e80" name="Default" comment="passenger on trip ui added">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/on_trip.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/bill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/cash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/driver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/winds/on_trip.py" afterDir="false" />
+    <list default="true" id="3fcfd7bb-358d-459b-9873-07887ec17e80" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passenger_connections.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/passenger_launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/passenger_launcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcome.ui" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winds/welcome_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/winds/welcome_ui.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,65 +19,134 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/project$passenger_launcher.coverage" NAME="passenger_launcher Coverage Results" MODIFIED="1548170469868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$passenger_connections.coverage" NAME="passenger_connections Coverage Results" MODIFIED="1548246294178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$passenger_launcher.coverage" NAME="passenger_launcher Coverage Results" MODIFIED="1548251306318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$ui.coverage" NAME="ui Coverage Results" MODIFIED="1547830347538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DB_Project@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DB_Project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DB_Project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DB_Project: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DB_Project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DB_Project: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DB_Project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DB_Project: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DB_Project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DB_Project: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="passenger: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="passenger_launcher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
+      <file leaf-file-name="db_connect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="500">
+              <caret line="38" selection-start-line="25" selection-start-column="4" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#43#305#0" />
+                <element signature="e#373#385#0" />
+                <element signature="e#442#854#0" />
+                <element signature="e#840#1243#0" />
+                <element signature="e#1302#1732#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passenger_main_ui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winds/passenger_main_ui.py">
+      <file leaf-file-name="welcome_ui.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/winds/welcome_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="124" column="40" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="40" />
+            <state relative-caret-position="-1971">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding>
-                <element signature="e#199#241#0" expanded="true" />
-                <marker date="1548148335632" expanded="false" signature="364:1485" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="1520:2715" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="2754:4548" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="4572:5237" ph="..." />
-                <marker date="1548148335632" expanded="true" signature="5273:7431" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="7467:9375" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="9405:10092" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="10124:10827" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="10855:11509" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="11550:12258" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="12292:12681" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="12708:13358" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="13385:13739" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="13765:13912" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="13947:14350" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="14378:15094" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="15122:15440" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="15466:15616" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="15651:16372" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="16418:17727" ph="..." />
-                <marker date="1548148335632" expanded="false" signature="17819:18549" ph="..." />
+                <element signature="e#195#211#0" expanded="true" />
+                <element signature="e#12895#13813#0" />
+                <element signature="e#13852#13871#0" />
+                <element signature="e#13913#13932#0" />
+                <marker date="1548252366422" expanded="false" signature="425:1544" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="1571:2097" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="2128:2741" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="2771:3374" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="3406:4029" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="4065:4737" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="4761:5571" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="5601:6038" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="6068:6481" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="6505:7456" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="7489:7966" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="7995:8408" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="8432:8747" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="8772:9185" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="9209:9530" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="9562:9966" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="9992:10757" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="10781:11106" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="11138:11611" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="11642:12041" ph="..." />
+                <marker date="1548252366422" expanded="false" signature="12065:12798" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="on_trip.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="on_trip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winds/on_trip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="1550">
               <caret line="378" column="41" lean-forward="true" selection-start-line="378" selection-start-column="41" selection-end-line="378" selection-end-column="41" />
               <folding>
                 <element signature="e#195#205#0" expanded="true" />
-                <element signature="e#17055#17214#0" />
-                <element signature="e#17283#17470#0" />
                 <marker date="1548170469814" expanded="false" signature="429:1578" ph="..." />
                 <marker date="1548170469814" expanded="false" signature="1609:2425" ph="..." />
                 <marker date="1548170469814" expanded="false" signature="2456:2912" ph="..." />
@@ -109,6 +174,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="passenger_connections.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passenger_connections.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passenger_launcher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -130,6 +219,7 @@
       <find>cancel_reason_1_clicked</find>
       <find>try</find>
       <find>balance</find>
+      <find>grid</find>
     </findStrings>
     <replaceStrings>
       <replace>why_cancel</replace>
@@ -144,11 +234,13 @@
         <option value="$PROJECT_DIR$/launcher.py" />
         <option value="$PROJECT_DIR$/ui.py" />
         <option value="$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/graphics/UIs/test.py" />
-        <option value="$PROJECT_DIR$/winds/welcome_ui.py" />
         <option value="$PROJECT_DIR$/winds/passenger_main_ui.py" />
         <option value="$PROJECT_DIR$/btn_actions/on_trip.py" />
-        <option value="$PROJECT_DIR$/passenger_launcher.py" />
         <option value="$PROJECT_DIR$/winds/on_trip.py" />
+        <option value="$PROJECT_DIR$/passenger_connections.py" />
+        <option value="$PROJECT_DIR$/connect.py" />
+        <option value="$PROJECT_DIR$/passenger_launcher.py" />
+        <option value="$PROJECT_DIR$/winds/welcome_ui.py" />
       </list>
     </option>
   </component>
@@ -162,10 +254,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="654" />
-    <option name="y" value="538" />
-    <option name="width" value="1858" />
-    <option name="height" value="1098" />
+    <option name="x" value="104" />
+    <option name="y" value="246" />
+    <option name="width" value="1648" />
+    <option name="height" value="1684" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,10 +290,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,6 +309,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.passenger_launcher">
+    <configuration name="passenger_connections" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/passenger_connections.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="passenger_launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,10 +369,12 @@
     <list>
       <item itemvalue="Python.ui" />
       <item itemvalue="Python.passenger_launcher" />
+      <item itemvalue="Python.passenger_connections" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.passenger_launcher" />
+        <item itemvalue="Python.passenger_connections" />
         <item itemvalue="Python.ui" />
       </list>
     </recent_temporary>
@@ -276,22 +390,39 @@
       <option name="presentableId" value="Default" />
       <updated>1547829370149</updated>
     </task>
+    <task id="LOCAL-00001" summary="passenger on trip ui added">
+      <created>1548170482524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548170482526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934132" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48622754" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3846154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32662722" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14295533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1491409" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17938145" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -317,7 +448,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -397,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winds/welcome_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
@@ -420,16 +544,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/btn_actions/on_trip.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winds/passenger_main_ui.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -462,14 +576,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="250" column="60" lean-forward="true" selection-start-line="238" selection-start-column="8" selection-end-line="250" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../96-97 2/CA/project/last_simulator/IJVM_executer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="38" selection-start-line="25" selection-start-column="4" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger_connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passenger_launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/winds/on_trip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="1550">
           <caret line="378" column="41" lean-forward="true" selection-start-line="378" selection-start-column="41" selection-end-line="378" selection-end-column="41" />
           <folding>
             <element signature="e#195#205#0" expanded="true" />
-            <element signature="e#17055#17214#0" />
-            <element signature="e#17283#17470#0" />
             <marker date="1548170469814" expanded="false" signature="429:1578" ph="..." />
             <marker date="1548170469814" expanded="false" signature="1609:2425" ph="..." />
             <marker date="1548170469814" expanded="false" signature="2456:2912" ph="..." />
@@ -492,6 +645,54 @@
             <marker date="1548170469814" expanded="false" signature="12753:14031" ph="..." />
             <marker date="1548170469814" expanded="false" signature="14059:14742" ph="..." />
             <marker date="1548170469814" expanded="false" signature="14768:15542" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#43#305#0" />
+            <element signature="e#373#385#0" />
+            <element signature="e#442#854#0" />
+            <element signature="e#840#1243#0" />
+            <element signature="e#1302#1732#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winds/welcome_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1971">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#195#211#0" expanded="true" />
+            <element signature="e#12895#13813#0" />
+            <element signature="e#13852#13871#0" />
+            <element signature="e#13913#13932#0" />
+            <marker date="1548252366422" expanded="false" signature="425:1544" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="1571:2097" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="2128:2741" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="2771:3374" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="3406:4029" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="4065:4737" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="4761:5571" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="5601:6038" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="6068:6481" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="6505:7456" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="7489:7966" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="7995:8408" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="8432:8747" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="8772:9185" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="9209:9530" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="9562:9966" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="9992:10757" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="10781:11106" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="11138:11611" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="11642:12041" ph="..." />
+            <marker date="1548252366422" expanded="false" signature="12065:12798" ph="..." />
           </folding>
         </state>
       </provider>
