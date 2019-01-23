@@ -1,5 +1,6 @@
 from driver_connections import *
 import base64
+import pickle
 from driver_client import driver_client
 
 
@@ -37,10 +38,17 @@ def main_window(drv_ph_no, client):
                 client.wait()
                 client.declare()
                 client.wait()
-                client.send_info(base64.b64encode(execute_fetch("select score from driver where phonenumber = %s", [drv_ph_no])))
+                client.send_info(execute_fetch("select score from driver where phonenumber = %s", [drv_ph_no]), drv_ph_no)
                 client.wait()
-                client.get_passenger()
-                on_trip(drv_ph_no)
+                print("wait for passenger:")
+                while True:
+                    px = client.get_passenger()
+                    print("passenger :: ("+px[0]+", "+px[1]+") -> ("+px[2]+", "+px[3]+")   :: "+px[4])
+                    if input("yes/no?") == "yes":
+                        on_trip(drv_ph_no, client.accept())
+                        break
+                    else:
+                        client.reject()
                 return
         elif instruction == "settings":
             instruction = input("what do you want?\n(changeName/changeImage/changeBankAccount)")
@@ -61,7 +69,7 @@ def main_window(drv_ph_no, client):
             break
 
 
-def on_trip(drv_ph_no):
+def on_trip(drv_ph_no, psg_ph_no):
     pass
 
 
