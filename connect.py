@@ -26,7 +26,9 @@ def execute(sql, values):
         cur.execute(sql, values)
         conn.commit()
         cur.close()
-    except (Exception, pg.DatabaseError):
+    except (Exception, pg.DatabaseError) as error:
+        print(error)
+        # todo: print eror ro bardaram
         return False
     finally:
         if conn is not None:
