@@ -5,10 +5,14 @@
 # Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
+import threading
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from math import sqrt
+from passenger_client import passenger_client
 priceRate = 1
+driver = None
+passenger = '09031479910'
 
 class Ui_mainWidow(object):
     def setupUi(self, mainWidow):
@@ -419,6 +423,9 @@ class Ui_mainWidow(object):
         self.settings_btn.hide()
         self.back_btn.hide()
         self.drv_find_gif.show()
+        conn = passenger_client()
+        conn.test(self.src_x.text(), self.src_y.text(), self.des_x.text(), self.des_y.text(), self.price.text(), passenger)
+
 
     def woman_clicked(self):
         self.blur_bg.show()

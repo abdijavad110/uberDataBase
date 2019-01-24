@@ -31,6 +31,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Welcome()
     aaa_set(ex)
-    # ex.change_ui_to_main_window()
+    ex.change_ui_to_main_window()
     # ex.change_ui_to_on_trip_window()
     sys.exit(app.exec_())

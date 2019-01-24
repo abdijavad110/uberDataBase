@@ -25,7 +25,19 @@ while True:
     else:
         print("passenger")
         conn.sendall(b'continue')
-        info = pickle.loads(conn.recv())
+        f = pickle.loads(conn.recv(1024))[0]
+        conn.sendall(b'ready')
+        a = pickle.loads(conn.recv(1024))[0]
+        conn.sendall(b'ready')
+        b = pickle.loads(conn.recv(1024))[0]
+        conn.sendall(b'ready')
+        c = pickle.loads(conn.recv(1024))[0]
+        conn.sendall(b'ready')
+        d = pickle.loads(conn.recv(1024))[0]
+        conn.sendall(b'ready')
+        e = pickle.loads(conn.recv(1024))[0]
+        conn.sendall(b'ready')
+        info = [a, b, c, d, e, f]
         conn.sendall(b'ok. wait')
         driver_number = None
         drivers_connections.sort(reverse=True)
@@ -33,10 +45,10 @@ while True:
             driver_connection[2].sendall(pickle.dumps(info))
             if driver_connection[2].recv(1024) == b'Y':
                 driver_connection[2].sendall(pickle.dumps(info[5]))
+                insert_trip(driver_number, info[5], '('+str(info[0])+','+str(info[1])+')', '('+str(info[2])+','+str(info[3])+')', info[4])
                 driver_number = driver_connection[1]
                 break
         if driver_number is None:
-            conn.sendall(b'N')
+            conn.sendall(pickle.dumps("nope"))
         else:
             conn.sendall(pickle.dumps(driver_number))
-            insert_trip(driver_number, info[5], '('+str(info[0])+','+str(info[1])+')', '('+str(info[2])+','+str(info[3])+')', info[4])

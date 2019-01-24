@@ -43,7 +43,7 @@ def main_window(drv_ph_no, client):
                 print("wait for passenger:")
                 while True:
                     px = client.get_passenger()
-                    print("passenger :: ("+px[0]+", "+px[1]+") -> ("+px[2]+", "+px[3]+")   :: "+px[4])
+                    print("passenger :: ("+str(px[0])+", "+str(px[1])+") -> ("+str(px[2])+", "+str(px[3])+")   :: "+str(px[4]))
                     if input("yes/no?") == "yes":
                         on_trip(drv_ph_no, client.accept())
                         break
@@ -70,7 +70,8 @@ def main_window(drv_ph_no, client):
 
 
 def on_trip(drv_ph_no, psg_ph_no):
-    pass
+    print(drv_ph_no, psg_ph_no)
+    #while True:
 
 
 client = driver_client()
